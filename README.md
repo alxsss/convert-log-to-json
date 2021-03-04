@@ -4,4 +4,4 @@ How to Install and Compile
 2. cd convert-log-to-json
 3. mvn compile exec:java -Dexec.mainClass=org.apache.beam.examples.ConvertLogToJson \
      -Dexec.args="--inputFile=input.txt --output=archive --output=output/routeone --output=output/routetwo" -Pdirect-runner
-4. There must be three output options in the previous comman, one for archive folder and the other two for routeone and routetwo
+4. There must be three output options in the previous command, one for archive folder and the other two for routeone and routetwo
